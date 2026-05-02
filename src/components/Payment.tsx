@@ -72,7 +72,7 @@ export default function Payment({ bookingData, onBack, onSuccess }: PaymentProps
 
       // Razorpay options
       const options = {
-        key: 'rzp_test_YOUR_KEY_HERE', // Replace with your Razorpay Key ID
+        key: 'rzp_test_SkWtabfopTbhAO', // Replace with your Razorpay Key ID
         amount: bookingData.amount * 100, // Amount in paise
         currency: 'INR',
         name: 'TableBook',
